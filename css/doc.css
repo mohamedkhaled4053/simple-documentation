@@ -1,5 +1,7 @@
 *{
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 nav{
   width: 20vw;
@@ -57,7 +59,7 @@ code{
   padding: 10px 15px;
   border-radius: 10px;
 }
-@media (max-width:800px){
+@media (max-width:767px){
   nav{
     position: relative;
     width: 100%;
@@ -70,5 +72,6 @@ code{
   }
   main{
     margin-left: 0px;
+    padding: 25px;
   }
 }
